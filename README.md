@@ -1,28 +1,31 @@
 # dev-challenge-webapi
 # Soluçao do desáfio para criar uma aplicação rest em C#.
-O desáfio pede que as seguintes condicoes sejam satisfeitas:
+* o Desáfio pede para elaborar uma interface gráfica em C# para poder criar, listar e editar os dados de um produto e sincronizar com a API do Reqwest.
+* O desáfio também pede que as seguintes condiçoões sejam satisfeitas:
 - Ao criar os dados de um produto a partir da GUI deverá guardar na API do Reqwest e guardar localmente na base de dados SQL Server;
 - Ao editar os dados do produto a partir da GUI deverá atualizar os dados na API do Reqwest e guardar localmente na base de dados SQL Server.
 
-# Esse repositorio contem o código do servidor(webapi)
+# Esse repositorio contém apenas o código do servidor(webapi)
+* Responsavel por efectuar as operaçoes de criação edição e retornar os produtos da base de dados local.
+* Para ver o código do cliente rest(desktop app) clique no link <a href="https://github.com/HarrissonRichard/dev-challenge-desktop-client" target="_blank">Cliente Rest - Desktop App </a>
 
 #Tecnologias
 - SQL SERVER
 - DAPPER
 - ASP.NET Core Web API
 
-# Funcionalidades
-a presente aplicação apresenta as seguintes funcionalidades:
-* Visualizar todos os produtos na base de dados local SQL SERVER GET /products
-* Visualizar um produto produto especifico GET /products
-* Adicionar um novo produto na base de dados local e remota(Rekwest). POST /products
-* Editar dados de um produto e actualizar localmente /PUT /products/{id}
+# Funcionalidades:
+* Visualizar todos os produtos na base de dados local SQL SERVER - GET /products
+* Visualizar um produto produto específico -  GET /products/{id}
+* Adicionar um novo produto na base de dados local. - POST /products
+* Editar dados de um produto e actualizar localmente - /PUT /products/{id}
 
 # Testes
-- para testar a aplicação é preciso antes iniciar o servidor, cujo o código está nesse <a href="https://github.com/HarrissonRichard/dev-challenge-webapi">repositório</a> para que possa persistir os dados localmente  e depois sincroniza-los remotamente com API rekwest.
-- 1. para executar localmente, a aplicação depende de .NET 5.0
-- 2. executar o comando <b>dotnet run</b> para iniciar a aplicação.
-* 3. para acessar a aplicacao pode ser através do navegador com o link link <a herf="https://localhost:5001/swagger"> https://localhost:7065/swagger </a> ou usando um cliente rest como postman
+- 1. para executar localmente, a aplicação depende de .NET 5.0 SDK
+- 2. Clonar este repositótio e executar o comando <b>dotnet run</b> para iniciar a aplicação.
+* 3. Para acessar a aplicação pode ser através:
+  - do navegador com o link link <a herf="https://localhost:5001/swagger"</a> ou <a href="http://localhost:5000"> https://localhost:5000/swagger </a> 
+  - ou usando um cliente rest como postman com o link <a href= "https://localhost"> https://localhost:5001 </a> ou <a href= "http://localhost"> http://localhost:5000 </a>
 
 # Sobre mim
 Harrisson Richard
