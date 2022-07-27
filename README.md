@@ -20,6 +20,9 @@
 * Adicionar um novo produto na base de dados local. - POST /products
 * Editar dados de um produto e actualizar localmente - /PUT /products/{id}
 
+# DEMO
+* para ver uma demonstração das funcionalidades API na Desktop App clique no link <a href="https://youtu.be/-x6EJRh0ELA">DEMO</a> 
+
 # Testes
 - 1. para executar localmente, a aplicação depende de .NET 5.0 SDK
 - 2. Clonar este repositótio e executar o comando <b>dotnet run</b> para iniciar a aplicação.
