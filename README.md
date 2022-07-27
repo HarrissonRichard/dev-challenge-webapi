@@ -23,8 +23,10 @@
 # DEMO
 * para ver uma demonstração das funcionalidades API na Desktop App clique no link <a href="https://youtu.be/-x6EJRh0ELA">DEMO</a> 
 
-# Testes
+# Testes e configurações da BD
 - 1. para executar localmente, a aplicação depende de .NET 5.0 SDK
+- 2. ter um banco de dados SQL SERVER com nome [Rekwest] e criar tabela assim como os devidos stored procedures. veja detlahes no ficheiro seguinte [databaseinstructions.txt](https://github.com/HarrissonRichard/dev-challenge-webapi/files/9199183/databaseinstructions.txt)
+
 - 2. Clonar este repositótio e executar o comando <b>dotnet run</b> para iniciar a aplicação.
 * 3. Para acessar a aplicação pode ser através:
   - do navegador com o link  <a herf="https://localhost:5001/swagger"> https://localhost:5001/swagger </a> ou <a href="http://localhost:5000"> http://localhost:5000/swagger </a> 
