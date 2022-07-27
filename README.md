@@ -24,7 +24,7 @@
 - 1. para executar localmente, a aplicação depende de .NET 5.0 SDK
 - 2. Clonar este repositótio e executar o comando <b>dotnet run</b> para iniciar a aplicação.
 * 3. Para acessar a aplicação pode ser através:
-  - do navegador com o link link <a herf="https://localhost:5001/swagger"</a> ou <a href="http://localhost:5000"> https://localhost:5000/swagger </a> 
+  - do navegador com o link  <a herf="https://localhost:5001/swagger"> https://localhost:5001/swagger </a> ou <a href="http://localhost:5000"> http://localhost:5000/swagger </a> 
   - ou usando um cliente rest como postman com o link <a href= "https://localhost"> https://localhost:5001 </a> ou <a href= "http://localhost"> http://localhost:5000 </a>
 
 # Sobre mim
