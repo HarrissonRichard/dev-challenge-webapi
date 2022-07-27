@@ -1,7 +1,7 @@
 # dev-challenge-webapi
-# Soluçao do desáfio para criar uma aplicação rest em C#.
-* O Desáfio pede para elaborar uma interface gráfica em C# para poder criar, listar e editar os dados de um produto e sincronizar com a API do Reqwest.
-* O desáfio também pede que as seguintes condiçoões sejam satisfeitas:
+# Soluçao do desafio para criar uma aplicação rest em C#.
+* O Desafio pede para elaborar uma interface gráfica em C# para poder criar, listar e editar os dados de um produto e sincronizar com a API do Reqwest.
+* O desafio também pede que as seguintes condiçoões sejam satisfeitas:
   - Ao criar os dados de um produto a partir da GUI deverá guardar na API do Reqwest e guardar localmente na base de dados SQL Server;
   - Ao editar os dados do produto a partir da GUI deverá atualizar os dados na API do Reqwest e guardar localmente na base de dados SQL Server.
 
